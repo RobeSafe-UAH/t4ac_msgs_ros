@@ -11,6 +11,10 @@ set(CMAKE_CXX_FLAGS "-std=c++11 -O2 -Wall ${CMAKE_CXX_FLAGS}")
 
 add_message_files(FILES
 	CarControl.msg
+	Node.msg
+	Way.msg
+	Lane.msg 
+	MonitorizedLanes.msg
 )
 
 generate_messages(DEPENDENCIES
