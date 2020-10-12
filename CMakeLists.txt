@@ -15,6 +15,10 @@ add_message_files(FILES
 	Way.msg
 	Lane.msg 
 	MonitorizedLanes.msg
+  bev_obstacle.msg
+  bev_obstacles_list.msg
+  tracked_obstacle.msg
+  tracked_obstacles_list.msg
 )
 
 generate_messages(DEPENDENCIES
