@@ -7,4 +7,4 @@ float64 back
 float64 left
 float64 right
 
-bev_obstacle[] bev_obstacles_list # List of bev_obstacles
+BEV_detection[] bev_detections_list # List of bev_obstacles

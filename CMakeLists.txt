@@ -10,15 +10,15 @@ find_package(catkin REQUIRED COMPONENTS
 set(CMAKE_CXX_FLAGS "-std=c++11 -O2 -Wall ${CMAKE_CXX_FLAGS}")
 
 add_message_files(FILES
-	CarControl.msg
-	Node.msg
-	Way.msg
-	Lane.msg 
-	MonitorizedLanes.msg
-  bev_obstacle.msg
-  bev_obstacles_list.msg
-  tracked_obstacle.msg
-  tracked_obstacles_list.msg
+  BEV_detection.msg
+  BEV_detections_list.msg
+  BEV_tracker.msg
+  BEV_trackers_list.msg
+  CarControl.msg
+  Node.msg
+  Way.msg
+  Lane.msg 
+  MonitorizedLanes.msg
   MonitorizedRegElem.msg
   RegulatoryElement.msg
   Landmark.msg

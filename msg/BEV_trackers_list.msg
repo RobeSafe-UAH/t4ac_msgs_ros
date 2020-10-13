@@ -2,4 +2,4 @@
 
 Header header                              # Frame and timestamp information
 
-tracked_obstacle[] tracked_obstacles_list  # List of tracked_obstacles
+BEV_tracker[] bev_trackers_list  # List of tracked_obstacles
