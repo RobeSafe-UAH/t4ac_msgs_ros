@@ -19,6 +19,9 @@ add_message_files(FILES
   bev_obstacles_list.msg
   tracked_obstacle.msg
   tracked_obstacles_list.msg
+  MonitorizedRegElem.msg
+  RegulatoryElement.msg
+  Landmark.msg
 )
 
 generate_messages(DEPENDENCIES
