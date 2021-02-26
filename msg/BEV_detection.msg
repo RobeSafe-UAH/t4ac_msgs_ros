@@ -13,4 +13,7 @@ float64   l         # BEV length of the object
 float64   w         # BEV width of the object
 float64   o         # Object orientation
 
+bool safety_zone    # If true, the detection is very near the vehicle 
+                    # Evaluate the predicted collision with this detection
+
 

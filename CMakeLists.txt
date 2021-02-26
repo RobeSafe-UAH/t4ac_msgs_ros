@@ -14,6 +14,8 @@ add_message_files(FILES
   BEV_detections_list.msg
   BEV_tracker.msg
   BEV_trackers_list.msg
+  Bounding_Box_2D.msg
+  Bounding_Box_2D_list.msg
   CarControl.msg
   Node.msg
   Way.msg
