@@ -24,6 +24,9 @@ add_message_files(FILES
   MonitorizedRegElem.msg
   RegulatoryElement.msg
   Landmark.msg
+  DM_path.msg
+  DM_pose.msg
+  DM_posestamped.msg
 )
 
 generate_messages(DEPENDENCIES
