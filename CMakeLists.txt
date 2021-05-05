@@ -27,6 +27,11 @@ add_message_files(FILES
   DM_path.msg
   DM_pose.msg
   DM_posestamped.msg
+  Location.msg
+  Rotation.msg
+  Transform.msg
+  Waypoint.msg
+  Path.msg
 )
 
 generate_messages(DEPENDENCIES
