@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
   geometry_msgs
+  vision_msgs
 )
 
 set(CMAKE_CXX_FLAGS "-std=c++11 -O2 -Wall ${CMAKE_CXX_FLAGS}")
@@ -18,6 +19,8 @@ add_message_files(FILES
   Bounding_Box_2D_list.msg
   Bounding_Box_3D.msg
   Bounding_Box_3D_list.msg
+  GT_3D_Object.msg
+  GT_3D_Object_list.msg
   Obstacle.msg
   Obstacles_list.msg
   CarControl.msg
@@ -41,10 +44,12 @@ add_message_files(FILES
 generate_messages(DEPENDENCIES
   std_msgs
   geometry_msgs
+  vision_msgs
 )
 
 catkin_package(CATKIN_DEPENDS
- message_runtime
- std_msgs
- geometry_msgs
+  message_runtime
+  std_msgs
+  geometry_msgs
+  vision_msgs
 )

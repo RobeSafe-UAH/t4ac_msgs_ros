@@ -16,5 +16,9 @@ packages your custom messages depend on -->
   <run_depend>std_msgs</run_depend>
   <build_depend>geometry_msgs</build_depend>
   <run_depend>geometry_msgs</run_depend>
+  <build_depend>opencv_apps</build_depend>
+  <run_depend>opencv_apps</run_depend>
+  <build_depend>vision_msgs</build_depend>
+  <run_depend>vision_msgs</run_depend>
 
 </package>
