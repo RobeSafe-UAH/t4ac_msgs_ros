@@ -36,6 +36,8 @@ add_message_files(FILES
   DM_posestamped.msg
   Location.msg
   Rotation.msg
+  Traffic_Sign.msg
+  Traffic_Sign_List.msg
   Transform.msg
   Waypoint.msg
   Path.msg
