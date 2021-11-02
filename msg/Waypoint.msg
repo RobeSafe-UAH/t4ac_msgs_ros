@@ -12,3 +12,5 @@ string lane_change
 string lane_type
 string right_lane_marking
 string left_lane_marking
+int32 vmax
+string vunit
