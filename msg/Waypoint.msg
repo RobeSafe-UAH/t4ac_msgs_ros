@@ -14,3 +14,5 @@ string right_lane_marking
 string left_lane_marking
 int32 vmax
 string vunit
+int32 nLanes
+int32 lanePosition
