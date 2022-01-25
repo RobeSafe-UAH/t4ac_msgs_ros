@@ -28,8 +28,8 @@ add_message_files(FILES
   Way.msg
   Lane.msg 
   MonitorizedLanes.msg
-  MonitorizedRegElem.msg
   RegulatoryElement.msg
+  RegulatoryElementList.msg
   Landmark.msg
   DM_path.msg
   DM_pose.msg
