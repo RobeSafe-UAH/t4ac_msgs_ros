@@ -24,6 +24,8 @@ add_message_files(FILES
   Obstacle.msg
   Obstacles_list.msg
   CarControl.msg
+  CarState.msg
+  DbWCommand.msg
   Node.msg
   Way.msg
   Lane.msg 
